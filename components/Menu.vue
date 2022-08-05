@@ -20,7 +20,7 @@
     </ul>
     <form class="form-inline mr-4 my-lg-0">
       <button class="btn  m-2 my-sm-0 font-weight-bold color-txt-gray" type="submit">Login</button>
-      <button class="btn  m-2 my-sm-0 bg-color font-weight-bold" type="submit">Sing Up</button>
+      <button class="btn  m-2 my-sm-0 bg-color-menu font-weight-bold" type="submit">Sing Up</button>
     </form>
   </div>
 </nav>
@@ -34,8 +34,7 @@ export default {
 </script>
 
 <style>
-.bg-color{
-
+.bg-color-menu{
  background-color: hsl(180, 66%, 49%);
  color: hsl(0, 0%, 100%);
  border-radius: 3rem ;

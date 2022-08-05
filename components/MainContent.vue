@@ -5,9 +5,7 @@
     <h5 class="card-title fs-title">More than just shorter links</h5>
     <p class="fs-p">Build your brand's recognition and get detailed <br>
     insights on how your links are performing</p>
-    <a href="#" class="btn bg-color ">Get Started</a>
-    <div>
-  </div>
+    <a href="#" class="btn bg-color-m ">Get Started</a>
   </div>
 </div>
     <div class="card mt-5 border-0 col-sm">
@@ -23,8 +21,8 @@ export default {
 </script>
 
 <style>
-.bg-color{
 
+.bg-color-m{
  background-color: hsl(180, 66%, 49%);
  color: hsl(0, 0%, 100%);
  border-radius: 3rem ;
