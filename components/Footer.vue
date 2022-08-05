@@ -1,7 +1,5 @@
 <template>
-  <div class="card border-0">
-  <div class="card-header">
-  </div>
+  <div class="card border-0" style="height: 10rem;">
   <div class="card-body bg-color-f">
     <h5 class="card-title text-white text-center">Boost your links today</h5>
     <div class="d-flex justify-content-center">
