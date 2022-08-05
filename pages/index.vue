@@ -3,6 +3,7 @@
 <Menu/>
 <MainContent/>
 <SearchBar/>
+<Footer/>
 </div>
 
 </template>
@@ -12,3 +13,9 @@ export default {
   name: 'IndexPage',
 }
 </script>
+
+<style>
+body {
+  font-family: 'Poppins', sans-serif;
+}
+</style>

@@ -36,6 +36,10 @@ export default {
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
   ],
+  axios:{
+    // proxy: true
+    baseURL: "https://api.shrtco.de/v2/"
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {

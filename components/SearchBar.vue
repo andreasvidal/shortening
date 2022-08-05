@@ -2,37 +2,24 @@
 <nav class="navbar d-flex justify-content-center space-top">
   <form class="form-inline">
     <input class="form-control mr-sm-3 size-place" type="search" placeholder="Shorten a link Here..." aria-label="Search">
-    <button :href="'/pages/'+ limit" class="btn my-2 my-sm-0 bg-color" type="submit">Shorten it</button>
+    <button class="btn my-2 my-sm-0 bg-color" type="submit">Shorten it</button>
   </form>
 </nav>
 </template>
 
 <script>
-export default {
-
-}
-</script>
 import axios from "axios";
 export default {
-  limit: {
-      type: String,
-    },
-  data ()
-{
-  return {
-    value: "",
-    data:"",
-  },
   created() {
-    axios
     const data = this.limit;
     console.log(data);
-      .get(`https://api.shrtco.de/v2/`)
-      .then((result) => {
-        console.log(result.data);
-      });
-  }
-}}
+    axios.get(`https://api.shrtco.de/v2/`).then((result) => {
+      console.log(result.data);
+    });
+  },
+}
+</script>
+
 <style>
 .space-top{
   margin-top: 5rem;
